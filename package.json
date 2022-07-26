@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    
+  "scripts": {    
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/css/final.css --watch",
     "final": "npx tailwindcss -o ./dist/css/final.css --minify"
   },
